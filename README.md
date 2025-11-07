@@ -37,4 +37,9 @@ qdrant-client pypdf python-dotenv langgraph streamlit requests langsmith
 
 
 Screenshots
+Streamlit App:
+<img width="1871" height="845" alt="image" src="https://github.com/user-attachments/assets/77efbca6-ee53-44ea-a62d-79c437f569c3" />
+
+Langsmith Tracing:
 <img width="1218" height="756" alt="image" src="https://github.com/user-attachments/assets/8e4ae922-a00f-4964-bf17-5c6b719daaf6" />
+
