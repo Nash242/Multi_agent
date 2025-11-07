@@ -12,22 +12,6 @@ Ask questions about your uploaded PDFs or get live weather updates for any city 
 ✅ LangSmith Tracing — End-to-end observability and debugging for every LLM call.
 ✅ Streamlit UI + CLI — Use the chatbot via an interactive web app or terminal.
 
-🧠 Architecture Overview
-User Query
-    │
-    ▼
-┌─────────────────────────────┐
-│ 🔀 Agent Router (LLM)       │ → Classifies query as [RAG | Weather | Unknown]
-└─────────────────────────────┘
-         │
- ┌───────────────┬────────────────┐
- │               │                │
- ▼               ▼                ▼
-📄 RAG Agent   🌤️ Weather Agent   ❓ Fallback
- - PDF Loader   - City/State      - Handles unknown
- - Chunking     - OpenWeather API   questions gracefully
- - Qdrant Index
- - LLM Answering
 
 🧩 Tech Stack
 Component	Technology
@@ -39,7 +23,7 @@ Tracing & Debugging	LangSmith
 Environment Management	Python + dotenv
 ⚙️ Installation
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/multi-agent-chatbot.git
+git clone https://github.com/Nash242/multi-agent-chatbot.git
 cd multi-agent-chatbot
 
 2️⃣ Create a Virtual Environment
