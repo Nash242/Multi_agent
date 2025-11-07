@@ -34,3 +34,7 @@ venv\Scripts\activate      # (Windows)
 3️⃣ Install Dependencies
 pip install -U langchain langchain-openai langchain-community langchain-qdrant \
 qdrant-client pypdf python-dotenv langgraph streamlit requests langsmith
+
+
+Screenshots
+<img width="1218" height="756" alt="image" src="https://github.com/user-attachments/assets/8e4ae922-a00f-4964-bf17-5c6b719daaf6" />
